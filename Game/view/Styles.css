@@ -1,0 +1,599 @@
+#diceRoll {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+#token {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    border-style: outset;
+    border-width: 5px;
+    background: url(image/YellowJPG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    
+}
+
+header {
+	margin: 0 auto;
+	font-size: 60px;
+    color: darkgoldenrod;
+	text-align: Center;
+	height: 120px;
+	width: 500px;
+    border-width: 2px;
+
+}
+
+#menu {
+    font-size: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+#menu ul li {
+    float: left;
+    padding: 10px;
+}
+
+#classList {
+    margin: 0 auto;
+    width: 500px;
+}
+
+footer {
+    color: darkgoldenrod;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    width: auto; 
+}
+
+#foot_menu {
+    font-size: 20px;
+}
+
+#foot_menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+#foot_menu ul li {
+    padding: 10px;
+}
+
+table {
+	background-color: khaki;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    width: auto;
+    height: auto;
+}
+
+#grid {
+    display: grid;
+    grid-column: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-row: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    padding: 30px;
+    background: green;
+}
+
+#A { grid-column: 1; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#B { grid-column: 2; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#C { grid-column: 3; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#D { grid-column: 4; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#E { grid-column: 5; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#F { grid-column: 6; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#G { grid-column: 7; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#H { grid-column: 8; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#I { grid-column: 9; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#J { grid-column: 10; 
+    grid-row: 1; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#K { grid-column: 1; 
+    grid-row: 2; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#L { grid-column: 2; 
+    grid-row: 2; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#M { grid-column: 3; 
+    grid-row: 2; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#N { grid-column: 4; 
+    grid-row: 2; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#O { grid-column: 5; 
+    grid-row: 2; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#P { grid-column: 6; 
+    grid-row: 2; 
+    border: black 2px solid;
+    text-align: center;
+}
+#Q { grid-column: 7; 
+    grid-row: 2; 
+    border: black 2px solid;
+    text-align: center;
+}
+#R { grid-column: 8; 
+    grid-row: 2; 
+    border: black 2px solid;
+    text-align: center;
+}
+#S { grid-column: 9; 
+    grid-row: 2; 
+    border: black 2px solid;
+    text-align: center;
+}
+#T { grid-column: 10; 
+    grid-row: 2; 
+    border: black 2px solid;
+    text-align: center;
+}
+#U { grid-column: 1; 
+    grid-row: 3; 
+    border: black 2px solid;
+    text-align: center;
+}
+#V { grid-column: 2; 
+    grid-row: 3; 
+    border: black 2px solid;
+    text-align: center;
+}
+#W { grid-column: 3; 
+    grid-row: 3; 
+    border: black 2px solid;
+    text-align: center;
+}
+#X { grid-column: 4; 
+    grid-row: 3; 
+    border: black 2px solid;
+    text-align: center;
+}
+#Y { grid-column: 5; 
+    grid-row: 3; 
+    border: black 2px solid;
+    text-align: center;
+}
+#AA { grid-column: 6; 
+    grid-row: 3; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#BB { grid-column: 7; 
+    grid-row: 3; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#CC { grid-column: 8; 
+    grid-row: 3; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#DD { grid-column: 9; 
+    grid-row: 3; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#EE { grid-column: 10; 
+    grid-row: 3; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#FF { grid-column: 1; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#GG { grid-column: 2; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#HH { grid-column: 3; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#II { grid-column: 4; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#JJ { grid-column: 5; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#KK { grid-column: 6; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#LL { grid-column: 7; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#MM { grid-column: 8; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#NN { grid-column: 9; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#OO { grid-column: 10; 
+    grid-row: 4; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#PP { grid-column: 1; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#QQ { grid-column: 2; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#RR { grid-column: 3; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#SS { grid-column: 4; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#TT { grid-column: 5; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#UU { grid-column: 6; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#VV { grid-column: 7; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#WW { grid-column: 8; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#XX { grid-column: 9; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#YY { grid-column: 10; 
+    grid-row: 5; 
+    border: black 2px solid;
+    text-align: center;
+}
+#AAA { grid-column: 1; 
+    grid-row: 6; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#BBB { grid-column: 2; 
+    grid-row: 6; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#CCC { grid-column: 3; 
+    grid-row: 6; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#DDD { grid-column: 4; 
+    grid-row: 6; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#EEE { grid-column: 5; 
+    grid-row: 6; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#FFF { grid-column: 6; 
+    grid-row: 6; 
+    border: black 2px solid;
+    text-align: center;
+}
+#GGG { grid-column: 7; 
+    grid-row: 6; 
+    border: black 2px solid;
+    text-align: center;
+}
+#HHH { grid-column: 8; 
+    grid-row: 6; 
+    border: black 2px solid;
+    text-align: center;
+}
+#III { grid-column: 9; 
+    grid-row: 6; 
+    border: black 2px solid;
+    text-align: center;
+}
+#JJJ { grid-column: 10; 
+    grid-row: 6; 
+    border: black 2px solid;
+    text-align: center;
+}
+#KKK { grid-column: 1; 
+    grid-row: 7; 
+    border: black 2px solid;
+    text-align: center;
+}
+#LLL { grid-column: 2; 
+    grid-row: 7; 
+    border: black 2px solid;
+    text-align: center;
+}
+#MMM { grid-column: 3; 
+    grid-row: 7; 
+    border: black 2px solid;
+    text-align: center;
+}
+#NNN { grid-column: 4; 
+    grid-row: 7; 
+    border: black 2px solid;
+    text-align: center;
+}
+#OOO { grid-column: 5; 
+    grid-row: 7; 
+    border: black 2px solid;
+    text-align: center;
+}
+#PPP { grid-column: 6; 
+    grid-row: 7; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#QQQ { grid-column: 7; 
+    grid-row: 7; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#RRR { grid-column: 8; 
+    grid-row: 7; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#SSS { grid-column: 9; 
+    grid-row: 7; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#TTT { grid-column: 10; 
+    grid-row: 7; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#UUU { grid-column: 1; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#VVV { grid-column: 2; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#WWW { grid-column: 3; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#XXX { grid-column: 4; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#YYY { grid-column: 5; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#AAAA { grid-column: 6; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#BBBB { grid-column: 7; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#CCCC { grid-column: 8; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#DDDD { grid-column: 9; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#EEEE { grid-column: 10; 
+    grid-row: 8; 
+    border: black 2px solid; 
+    text-align: center;
+}
+#FFFF { grid-column: 1; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#GGGG { grid-column: 2; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#HHHH { grid-column: 3; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#IIII { grid-column: 4; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#JJJJ { grid-column: 5; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#KKKK { grid-column: 6; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#LLLL { grid-column: 7; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#MMMM { grid-column: 8; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#NNNN { grid-column: 9; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#OOOO { grid-column: 10; 
+    grid-row: 9; 
+    border: black 2px solid;
+    text-align: center;
+}
+#PPPP { grid-column: 1; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#QQQQ { grid-column: 2; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#RRRR { grid-column: 3; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#SSSS { grid-column: 4; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#TTTT { grid-column: 5; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#UUUU { grid-column: 6; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#VVVV { grid-column: 7; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#WWWW { grid-column: 8; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#XXXX { grid-column: 9; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
+#YYYY { grid-column: 10; 
+    grid-row: 10; 
+    border: black 2px solid;
+    text-align: center;
+}
